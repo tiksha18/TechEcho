@@ -8,7 +8,6 @@ pyttsx3.speak("Tell me,  how may I help you ")
 r = sr.Recognizer()
 
 while(True):
-
      with sr.Microphone() as source :
           print("Listening...")
           audio = r.listen(source)
